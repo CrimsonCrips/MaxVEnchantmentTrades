@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.crimsoncrips.maxvenchanttrades.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "maxvillagerenchantmenttrades.refmap.json",
+  "mixins": [
+    "VillagerTradeMixins"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
